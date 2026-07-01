@@ -1,0 +1,66 @@
+canonical_identifier: bkk:krp/KR6i0253/v1
+canonical_location: https://kanripo.org/bkk/KR6i0253/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 禪法要解
+  identifiers:
+    alt_id:
+    - T15n0616
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0616.xml
+    old_id: T15n0616
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0253_000.yaml, hash: 'sha256:a85a6835bcb9b67c25835fcc5e6e3fa78a790b1f2ff437a743134daedb5504f7'}
+  - {seq: 1, filename: KR6i0253_001.yaml, hash: 'sha256:961d194e14f44879055ce8cc6087f9dd2a864395c1ed41254829c777dfbc51d0'}
+  - {seq: 2, filename: KR6i0253_002.yaml, hash: 'sha256:fdf6debea58be9c17b48ba550bfd54d70b32d715f23b99126da3947848f6cf9b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0253_001.markers.yaml, hash: 'sha256:0b36ea548786dc284d9c592812007bd62e5b2c0b1d33d9a550af91a853ef08d5'}
+  - {seq: 2, role: markers, filename: assets/KR6i0253_002.markers.yaml, hash: 'sha256:95de9c8bb18e1ef0c7ca08a6e995ac3912cfa70bb03843b5d4813ff8b30fbbc1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0253_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8857
+  label: 禪法要解卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0253_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7366
+  label: 禪法要解卷下
+  type: juan
+  level: 1
+hash: sha256:df23b4173707932f35eab5844d0099994867471ccb03f30e5a27c35b7509a274
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
